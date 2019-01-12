@@ -1,0 +1,32 @@
+# Set the default charset.
+AddDefaultCharset UTF-8
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Enable symlinks
+Options +FollowSymlinks
+
+# Enable mod_rewrite
+RewriteEngine On
+
+# Backend redirect
+RewriteCond %{REQUEST_URI} ^/backend
+RewriteRule ^backend/(.*)$ backend/web/$1 [L]
+
+# Storage redirect
+RewriteCond %{REQUEST_URI} ^/storage
+RewriteRule ^storage/(.*)$ storage/$1 [L]
+
+# Frontend redirect
+RewriteCond %{REQUEST_URI} ^(.*)$
+RewriteRule ^(.*)$ frontend/web/$1
+
+php_value memory_limit 2014M
+php_value post_max_size 102400M
+php_value upload_max_filesize 102400M
+
+<IfModule mod_php4.c>
+    #php_extension_dir php_intl.dll
+    php_extension php_fileinfo.dll
+</IfModule>

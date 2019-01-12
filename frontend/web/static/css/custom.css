@@ -1,0 +1,61 @@
+ /*navbar*/ 
+    @media (min-width: 768px){
+        .navbar-form {
+            width: 50%;
+             
+        }
+        .navbar-form .input-group {
+             
+        }
+        .navbar-form .input-group > .form-control {
+            width: 500px;
+        }
+        .navbar-inverse {
+            background-color: #3c8dbc;
+            border-color: #24678e;
+        } 
+        .btn-search{
+            padding-right: 20px;
+            text-align: center;
+            padding-left: 20px;
+        }
+        .navbar-inverse .navbar-nav > li > a {
+            color: #ffffff;
+        }
+        .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+            color: #fff;
+            background-color: #337ab7;
+        }
+        .navbar-nav > li > .dropdown-menu {             
+            width: 100%;
+        }
+        .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+            overflow-x: hidden;
+        }
+        .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+            border-color: #3c8dbc;
+        }
+    }
+    .navbar-inverse {
+       background-color: #3c8dbc;
+       border-color: #24678e;
+    }
+    .navbar-inverse .navbar-toggle {
+            margin-right: 5px;
+    }
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+            background-color: #136ca0;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+            border-color: #136ca0;
+   }
+    .navbar-inverse .navbar-nav > li > a {
+            color: #ffffff;
+    }
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+        color: #fff;
+        background-color: #276b92;
+    }   
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }

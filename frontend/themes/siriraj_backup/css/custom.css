@@ -1,0 +1,21 @@
+.btn-primary {
+    color: #fff;
+    background-color: #d2ab66;
+    border-color: #d2ab66;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d4a85a;
+    border-color: #d2ab66;
+}
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #641a35;
+    border-color: #641a35;
+}
+
+@media screen and (max-width: 768px) {
+    .col-50{
+        width:50%;
+    }   
+}

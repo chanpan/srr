@@ -1,0 +1,45 @@
+# Framework
+# ---------
+YII_DEBUG = true
+YII_ENV = dev
+
+# Databases
+# ---------
+
+DB_DSN = mysql:host=10.7.2.211:90/SiMySqlAdmin;port=3306;dbname=simuseum
+DB_USERNAME = simutreasure
+DB_PASSWORD = *6ktB87g3
+DB_TABLE_PREFIX =
+
+
+#DB_DSN = mysql:host=localhost;port=3306;dbname=srr
+#DB_USERNAME = root
+#DB_PASSWORD =
+#DB_TABLE_PREFIX =
+
+# Urls
+# ----
+FRONTEND_URL = http://10.7.2.210/simutreasure
+BACKEND_URL = http://10.7.2.210/simutreasure/backend
+STORAGE_URL = http://10.7.2.210/simutreasure/storage
+
+# Other
+# -----
+TIMEZONE = UTC
+LANGUAGE = en-US
+
+MAINTENANCE_MODE = false
+MAINTENANCE_MODE_MESSAGE = 'Sorry, perform technical works.'
+MAINTENANCE_MODE_TIME = '0000-00-00 00:00:00'
+
+FRONTEND_COOKIE_VALIDATION_KEY = ABXSSSSSSSSS_FRONTEND
+BACKEND_COOKIE_VALIDATION_KEY = ABXSSSSSSSSS_BACKEND
+
+ADMIN_EMAIL = admin@yii2-core.loc
+ROBOT_EMAIL = robot@yii2-core.loc
+
+LINK_ASSETS = false
+
+# Disqus
+# ------
+SHORT_NAME =
